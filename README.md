@@ -2,6 +2,8 @@
 
 A simple, responsive business website built with HTML, CSS, and JavaScript.
 
+Hello there, I am Sanjan, an engineering graduate in Electronics and Communication Engineering. I built a website for my father with zero coding knowledge and zero rupee investment.
+
 ## Features
 - Responsive design that works on mobile and desktop
 - Smooth scrolling navigation
