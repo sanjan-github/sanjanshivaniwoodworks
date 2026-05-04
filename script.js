@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Project Details:',
                 message
             ].join('\n');
-            const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`;
+            const whatsappUrl = `whatsapp://send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(whatsappMessage)}`;
 
             const whatsappTab = window.open('', '_blank');
             if (!whatsappTab) {

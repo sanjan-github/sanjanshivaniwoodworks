@@ -745,6 +745,7 @@ section h2 {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: var(--size-21);
+    padding-right: calc(var(--size-34) + var(--size-13) + var(--size-8));
 }
 
 .gallery-actions {
