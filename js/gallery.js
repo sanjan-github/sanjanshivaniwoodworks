@@ -7,7 +7,6 @@ export function initGallery() {
     // First, let's clear out all sections in case there's old data, or rather, find the matching section and append
     const categoryMap = {
         'Doors': '#portfolio-doors',
-        'Windows & Frames': '#portfolio-frames',
         'Furniture': '#portfolio-furniture',
         'Cabinets': '#portfolio-cabinets',
         'Aluminium': '#portfolio-aluminium',
