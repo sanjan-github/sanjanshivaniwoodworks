@@ -257,15 +257,8 @@ document.addEventListener('DOMContentLoaded', () => {
             ].join('\n');
             const whatsappUrl = `whatsapp://send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(whatsappMessage)}`;
 
-            const whatsappTab = window.open('', '_blank');
-            if (!whatsappTab) {
-                showFormStatus('Please allow pop-ups so WhatsApp can open in a new tab.', 'error');
-                return;
-            }
-
-            whatsappTab.opener = null;
-            whatsappTab.location.href = whatsappUrl;
-            showFormStatus('Opening WhatsApp in a new tab with your message details filled in.', 'success');
+            window.location.href = whatsappUrl;
+            showFormStatus('Redirecting to WhatsApp with your message details filled in.', 'success');
 
             contactForm.reset();
             fields.forEach((field) => {
